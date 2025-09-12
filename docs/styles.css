@@ -1,0 +1,56 @@
+/* css styles JPR 04-septembre-2025*/
+
+/* Justifier le texte du contenu principal */
+p {
+  text-align: justify;
+}
+
+/* -------------------------------*/
+/* Ne pas afficher la chaîne de title:"" sur les pages html */
+.quarto-title > h1.title {
+  display: none !important;
+}
+/* -------------------------------*/
+/* Epaissir les lignes des tableaux et alternance de couleurs des lignes */
+.table-container table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.table-container th, 
+.table-container td {
+  border-top: 2px solid #000;    /* ligne horizontale haute */
+  border-bottom: 2px solid #000; /* ligne horizontale basse */
+  border-left: none;              /* pas de bordure verticale gauche */
+  border-right: none;             /* pas de bordure verticale droite */
+  padding: 8px;
+  text-align: left;
+}
+
+/* Alternance de couleurs des lignes */
+.table-container tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.table-container tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+/* -------------------------------*/
+/* Style de la légende des figures */
+.figure figcaption {
+  font-style: italic;
+  color: #555555;
+  text-align: center;
+  margin-top: 5px; /* espace entre image et légende */
+}
+
+/* -------------------------------*/
+/* Supprimer le trait sous tous les titres h1 à h6 pour (par exemple) le thème spacelab*/
+h1, h2, h3, h4, h5, h6 {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+

@@ -1,0 +1,64 @@
+---
+title: "Consortium"
+---
+
+```{r, eval=F, include=FALSE}
+# chunk vide nécessaire pour l'affiche des dates de mise-à-jour au format R
+```
+
+
+# Consortium
+
+The MASSIF project brings together 9 units affiliated with 6 research institutions.
+
+::: {.table-container .text-center}
+| Research unit                  | Parent institution  |
+|-------------------------------------|---------------------------|
+| [CBGP](https://umr-cbgp.fr/){target=“_blank”}                | INRAE                     |
+| [URZF](https://urzf.val-de-loire.hub.inrae.fr/){target=“_blank”}               | INRAE                     |
+| [EFNO](https://efno.val-de-loire.hub.inrae.fr/){target=“_blank”}               | INRAE                     |
+| [DYNAFOR](https://www.dynafor.fr/){target=“_blank”}            | INRAE                     |
+| [iEES](https://iees-paris.fr/){target=“_blank”}               | Sorbonne Université       |
+| [MECADEV](https://mecadev.cnrs.fr/index.php?){target=“_blank”}            | MNHN                      |
+| [SETE](https://sete-moulis-cnrs.fr/fr/){target=“_blank”}               | CNRS                      |
+| [LAAS](https://www.laas.fr/fr/){target=“_blank”}               | INP-Toulouse              |
+| LNEF               | ONF                       |
+:::
+
+# Project participants
+
+::: {.table-container .text-center}
+| First name       | Last name                  | Research unit   |
+|--------------|----------------------|---------|
+| Carole       | [Kerdelhué](https://umr-cbgp.fr/membre/kerdelhue/){target=“_blank”} **(coordinator)** | [CBGP](https://umr-cbgp.fr/){target=“_blank”}    |
+| Emilie       | Andrieu              | [DYNAFOR](https://www.dynafor.fr/){target=“_blank”} |
+| Frederic     | [Archaux](https://efno.val-de-loire.hub.inrae.fr/le-personnel/personnel-permanent/archaux-frederic){target=“_blank”} | [EFNO](https://efno.val-de-loire.hub.inrae.fr/){target=“_blank”}    |
+| Marie-Anne   | [Auger-Rozenberg](https://urzf.val-de-loire.hub.inrae.fr/les-personnes/personnels-permanents2/auger-rozenberg-marie-anne){target=“_blank”} | [URZF](https://urzf.val-de-loire.hub.inrae.fr/){target=“_blank”}    |
+| Thomas       | Barnoin              | LNEF    |
+| Christophe   | [Bouget](https://efno.val-de-loire.hub.inrae.fr/le-personnel/personnel-permanent/bouget-christophe){target=“_blank”} | [EFNO](https://efno.val-de-loire.hub.inrae.fr/){target=“_blank”}    |
+| Maxime       | [Cauchoix](https://sete-moulis-cnrs.fr/fr/recherches/linking/equipe/item/156-cauchoix-maxime){target=“_blank”} | [SETE](https://sete-moulis-cnrs.fr/fr/){target=“_blank”}    |
+| Kevin        | [Darras](https://efno.val-de-loire.hub.inrae.fr/le-personnel/personnel-permanent/darras-kevin){target=“_blank”} | [EFNO](https://efno.val-de-loire.hub.inrae.fr/){target=“_blank”}    |
+| Christophe   | [Daugeron](https://www.mecadev.cnrs.fr/index.php?post/Daugeron-Christophe){target=“_blank”} | [MECADEV](https://mecadev.cnrs.fr/index.php?){target=“_blank”} |
+| Guenaelle    | [Genson](https://umr-cbgp.fr/membre/genson-g/){target=“_blank”} | [CBGP](https://umr-cbgp.fr/){target=“_blank”}    |
+| Eric         | [Guilbert](https://mecadev.cnrs.fr/index.php?post/Guilbert-Eric){target=“_blank”} | [MECADEV](https://mecadev.cnrs.fr/index.php?){target=“_blank”} |
+| Wilfried     | Heintz               | [DYNAFOR](https://www.dynafor.fr/){target=“_blank”} |
+| Mathieu      | [Laparie](https://urzf.val-de-loire.hub.inrae.fr/les-personnes/personnels-permanents2/laparie-mathieu){target=“_blank”} | [URZF](https://urzf.val-de-loire.hub.inrae.fr/){target=“_blank”}    |
+| Blaise       | [Mulliez](https://www.laas.fr/fr/annuaire/361){target=“_blank”} | [LAAS](https://www.laas.fr/fr/){target=“_blank”}    |
+| Melodie      | Ollivier             | [DYNAFOR](https://www.dynafor.fr/){target=“_blank”} |
+| Julien       | [Perchoux](https://www.laas.fr/fr/annuaire/241){target=“_blank”} | [LAAS](https://www.laas.fr/fr/){target=“_blank”}    |
+| Eric         | [Pierre](https://umr-cbgp.fr/membre/pierre/){target=“_blank”} | [CBGP](https://umr-cbgp.fr/){target=“_blank”}    |
+| Adam         | [Quotb](https://www.laas.fr/fr/annuaire/276){target=“_blank”} | [LAAS](https://www.laas.fr/fr/){target=“_blank”}    |
+| Alain        | [Roques](https://urzf.val-de-loire.hub.inrae.fr/les-personnes/personnels-permanents2/roques-alain){target=“_blank”} | [URZF](https://urzf.val-de-loire.hub.inrae.fr/){target=“_blank”}    |
+| Jean-Pierre  | [Rossi](https://rossi-jp.github.io/home/){target=“_blank”} | [CBGP](https://umr-cbgp.fr/){target=“_blank”}    |
+| Laure        | [Sauné](https://umr-cbgp.fr/membre/saune/){target=“_blank”} | [CBGP](https://umr-cbgp.fr/){target=“_blank”}    |
+| Fabien       | Soldati              | LNEF    |
+| Jean-Claude  | [Streito](https://umr-cbgp.fr/membre/streito/){target=“_blank”} | [CBGP](https://umr-cbgp.fr/){target=“_blank”}    |
+| Laurence     | Walch                | [iEES](https://iees-paris.fr/){target=“_blank”}    |
+:::
+
+
+<br><br>
+---
+
+Last update: `r Sys.setlocale("LC_TIME", "en_US.UTF-8"); format(Sys.time(), "%B %d %Y")`
+

@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: docs # <- déplacer ici
+
+website:
+  title: "The MASSIF project"
+  favicon: 00-images/01-abeille.png
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+        
+      - href: objectifs.qmd
+        text: Objectives
+        
+      - href: lt.qmd
+        text: Work packages
+        
+      - href: consortium.qmd
+        text: Consortium   
+
+      - href: ressources.qmd
+        text: Ressources 
+        
+      # - text: "🇬🇧 English"
+      #   href: "https://massif-project.github.io/siteen/"
+      #   target: _blank
+        
+      - text: "🇫🇷 Français"
+        href: "https://massif-project.github.io/site/"
+        target: _blank
+
+     
+format:
+  html:
+    theme: spacelab #litera #minty #cosmo
+    css: styles.css
+#    lang: fr
+    toc: true
+    toc-location: left
+    toc-depth: 3
+    # number-sections: true
+    # number-depth: 2

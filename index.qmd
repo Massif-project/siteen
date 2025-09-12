@@ -1,0 +1,51 @@
+---
+title: "Home"
+subtitle: "" # "Un projet de recherche sur la biosurveillance des insectes forestiers"
+---
+
+```{r, eval=F, include=FALSE}
+# chunk vide nécessaire pour l'affiche des dates de mise-à-jour au format R
+```
+
+<p class="text-center">
+  <img src="00-images/02-Republique_Francaise.jpg" width="20%" style="margin:0 12px;">
+  <img src="00-images/02-FR2030.png" width="25%" style="margin:0 12px;">
+  <img src="00-images/02-ANR.png" width="20%" style="margin:0 12px;">
+</p>
+
+<!-- "hero section" avec un en-tête #E0FFFF-->
+::: {.hero .text-center .p-3 style="background-color:#f5f5f5;"} 
+# The MASSIF project
+
+:::
+
+<br>
+MASSIF is a research project dedicated to monitoring and tracking insect fauna diversity in forests. It is funded under the framework of the [PEPR FORESTT](https://www.pepr-forestt.org/){target=“_blank”} (2025-2029). The project brings together 9 partner units affiliated with 6 parent institutions.
+
+# Context
+Characterizing the current collapse of biodiversity requires the establishment of long-term monitoring observatories. Insects, which constitute a major component of biodiversity, play a key role in numerous ecosystem services, yet certain pest species also pose a threat to forest health. To date, no standardized solution exists, and several technological bottlenecks continue to hinder the implementation of effective monitoring and biosurveillance systems for insect fauna.
+
+# Objectives
+The MASSIF project aims to develop and test solutions to overcome these bottlenecks, ranging from the design of automated diagnostic tools to real-time data visualization and analysis.
+
+- Produce the resources required for expert identification of pollinators, xylophagous, and saproxylic insects (reference collections, morphological identification, molecular barcoding, photographic databases)
+- Develop artificial intelligence–based solutions to automate identification both in the laboratory and in the field
+- Design sensors and instruments to automate trapping systems and move toward non-lethal approaches
+- Standardize trapping methods to enable large-scale deployment
+- Develop and configure digital solutions for real-time data sharing and visualization
+
+# Expected Outcomes
+- The MASSIF project will provide resources for entomofauna identification by combining molecular data, photographic databases, and analytical algorithms.
+- It will contribute to overcoming the technological bottlenecks that currently limit large-scale monitoring of forest insects.
+- It will develop the tools necessary for monitoring insect fauna and forest health, complementing the data collected in the targeted X-RISKS and MONITOR projects.
+
+
+<br><br>
+<p class="text-center">
+  <img src="00-images/03-tutelles.png" width="100%" style="margin:0 12px;">
+</p>
+
+
+---
+
+Last update: `r Sys.setlocale("LC_TIME", "en_US.UTF-8"); format(Sys.time(), "%B %d %Y")`

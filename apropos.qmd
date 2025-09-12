@@ -1,0 +1,16 @@
+---
+title: "A propos du projet MASSIF"
+---
+
+```{r, eval=F, include=FALSE}
+# chunk vide nécessaire pour l'affiche des dates de mise-à-jour au format R
+```
+
+
+About this site
+
+
+---
+
+Dernière mise-à-jour : `r Sys.setlocale("LC_TIME", "fr_FR.UTF-8") ; format(Sys.time(), "%d %B %Y")`
+

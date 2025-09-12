@@ -1,0 +1,59 @@
+---
+title: "Objectives and work packages"
+---
+
+```{r, eval=F, include=FALSE}
+# chunk vide nécessaire pour l'affiche des dates de mise-à-jour au format R
+```
+
+
+# Objectives
+The MASSIF project aims to develop and test solutions to overcome these bottlenecks, ranging from the design of automated diagnostic tools to real-time data visualization and analysis.
+
+- Produce the resources required for expert identification of pollinators, xylophagous, and saproxylic insects (reference collections, morphological identification, molecular barcoding, photographic databases)
+- Develop artificial intelligence–based solutions to automate identification both in the laboratory and in the field
+- Design sensors and instruments to automate trapping systems and move toward non-lethal approaches
+- Standardize trapping methods to enable large-scale deployment
+- Develop and configure digital solutions for real-time data sharing and visualization
+
+# Work packages
+
+::: {.figure .text-center}
+![MASSIF project organization chart](00-images/00-lts.png){width=80% fig-cap="MASSIF project organization chart" .text-center}
+:::
+
+**WP0 Project management and dissemination of results - Coord.: Carole Kerdelhué (CBGP)**
+
+**WP1 - Developing reference databases to build a reliable identification toolkit**
+
+- Task 1.1. Database for molecular identification of specimens (barcoding)
+- Task 1.2. Development of a photograph reference library 
+
+**WP2 - Workflow development and training AI algorithms for lab- and field-based insect identification**
+
+- Task 2.1. Automating insect sorting and identification in the lab 
+- Task 2.2. Embedded vision models for non-invasive identification of live insects trapped in the field 
+
+**WP3 - Optimisation of trapping strategies and development of sensor-based instruments**
+
+- Task 3.1. Selection and optimization of trapping systems and attractants for long term monitoring 
+- Task 3.2. Smart embedded image analyser system for long term insect monitoring 
+
+**WP4 - Design and implementation of sampling strategy and analytical workflow**
+
+- Task 4.1. Definition and implementation of a field sampling plan for pilot sites 
+- Task 4.2. Definition and implementation of a pipeline of data analysis: selection of metrics and calculation methods
+- Task 4.3. Designing the large scale monitoring strategy 
+
+**WP5 - Data management and visualization**
+
+- Task 5.1. Setup and tuning of an institutional infrastructure to store, secure and query databases 
+- Task 5.2. Development of a public web tool to explore data and use WP4 R
+- Task 5.3. Creation of free and open-source configurations and documentation for replication and migration to trans-institutional infrastructures 
+
+
+<br><br>
+---
+
+Last update: `r Sys.setlocale("LC_TIME", "en_US.UTF-8"); format(Sys.time(), "%B %d %Y")`
+
