@@ -53,4 +53,21 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: none !important;
 }
 
+/* ------------------------------- #fff8e5*/
+/* Style pour les blocs "summary"*/
+details summary2 {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 4px;
+  background-color: #fff3cd; /* couleur style warning */
+  border: 1px solid #ffeeba;
+  border-radius: 4px;
+}
+
+details[open] {
+  background-color: #fbfffb;
+  padding: 8px;
+}
+
+
 
